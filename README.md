@@ -17,6 +17,12 @@ It's not too hard to fix this eyesore...
    * You may need to "Authenticate" with your password if your Applications folder is protected.
 7. Quit Cisco AnyConnect and open it again.
 
+#### Terminal directions
+1. Download [these new images](https://github.com/leebyron/anyconnect-dark/raw/master/Resources.zip).
+2. Assuming that your Cisco AnyConnect Secure Mobility Client app is in /Applications/Cisco, and you've downloaded Resources.zip to ~/Downloads, you can just run this:
+```
+    sudo unzip -j -d '/Applications/Cisco/Cisco AnyConnect Secure Mobility Client.app/Contents/Resources/' ~/Downloads/Resources.zip
+```
 ### Caveats:
 
 * This doesn't change the software, only the images so the problem of not supporting both dark and light menu bar remains. If you plan on switching back to light menu bar, you may want to save a copy of the original assets.
